@@ -1,0 +1,10 @@
+Time resolution is 1 ps
+==================================================
+[250000] BAT DAU TEST TVLA - KHOI MAC CORE
+[250000] Dang chay tap du lieu FIXED...
+[10290000] Hoan thanh FIXED. Ket qua Y = 07d00000
+[10340000] Dang chay tap du lieu RANDOM...
+[20380000] Hoan thanh RANDOM. Ket qua Y = 3c7287e0
+==================================================
+$finish called at time : 20480 ns : File "D:/Hoc_Tap/Dai_hoc/HK6/SoC/BaiTap/20-04/mac_core/mac_core.srcs/sources_1/imports/mac-tvla-verification/tb/tb_mac_core.v" Line 128
+INFO: xsimkernel Simulation Memory Usage: 96996 KB (Peak: 96996 KB), Simulation CPU Usage: 36749 ms
