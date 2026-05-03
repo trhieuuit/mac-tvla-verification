@@ -1,5 +1,5 @@
 namespace eval ::optrace {
-  variable script "D:/Hoc_Tap/Dai_hoc/HK6/SoC/BaiTap/20-04/mac_core/mac_core.runs/impl_1/mac_core.tcl"
+  variable script "C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core/mac_core.runs/impl_1/mac_core.tcl"
   variable category "vivado_impl"
 }
 
@@ -110,23 +110,24 @@ set rc [catch {
   set_param power.enableUnconnectedCarry8PinPower 1
   set_param power.enableCarry8RouteBelPower 1
   set_param power.enableLutRouteBelPower 1
-  set_param runs.launchOptions { -jobs 6  }
+  set_param runs.launchOptions { -jobs 12  }
 OPTRACE "create in-memory project" START { }
   create_project -in_memory -part xck26-sfvc784-2LV-c
+  set_property board_part_repo_paths {D:/Vivado/2025.1/data/boards/board_files} [current_project]
   set_property board_part xilinx.com:kv260_som:part0:1.4 [current_project]
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
 OPTRACE "create in-memory project" END { }
 OPTRACE "set parameters" START { }
-  set_property webtalk.parent_dir D:/Hoc_Tap/Dai_hoc/HK6/SoC/BaiTap/20-04/mac_core/mac_core.cache/wt [current_project]
-  set_property parent.project_path D:/Hoc_Tap/Dai_hoc/HK6/SoC/BaiTap/20-04/mac_core/mac_core.xpr [current_project]
-  set_property ip_output_repo D:/Hoc_Tap/Dai_hoc/HK6/SoC/BaiTap/20-04/mac_core/mac_core.cache/ip [current_project]
+  set_property webtalk.parent_dir C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core/mac_core.cache/wt [current_project]
+  set_property parent.project_path C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core/mac_core.xpr [current_project]
+  set_property ip_output_repo C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core/mac_core.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
-  add_files -quiet D:/Hoc_Tap/Dai_hoc/HK6/SoC/BaiTap/20-04/mac_core/mac_core.runs/synth_1/mac_core.dcp
+  add_files -quiet C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core/mac_core.runs/synth_1/mac_core.dcp
 OPTRACE "read constraints: implementation" START { }
-  read_xdc D:/Hoc_Tap/Dai_hoc/HK6/SoC/BaiTap/20-04/mac_core/mac_core.srcs/constrs_1/new/mac_constraints.xdc
+  read_xdc C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core/mac_core.srcs/constrs_1/new/mac_constraints.xdc
 OPTRACE "read constraints: implementation" END { }
 OPTRACE "read constraints: implementation_pre" START { }
 OPTRACE "read constraints: implementation_pre" END { }

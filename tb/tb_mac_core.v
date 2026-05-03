@@ -4,7 +4,7 @@ module tb_mac_core();
 
     // 1. Khai báo các tham số và tín hiệu
     parameter DATA_WIDTH = 32;
-    parameter NUM_TESTS  = 1000; // Số lần cộng dồn trong 1 chuỗi TVLA
+    parameter NUM_TESTS  = 2000; // TỔNG SỐ MẪU: 2000 lần tính toán đan xen
 
     reg                   clk;
     reg                   rst_n;
@@ -17,6 +17,10 @@ module tb_mac_core();
     
     wire [DATA_WIDTH-1:0] y_o;
     wire                  valid_o;
+
+    // Biến quản lý file nhãn (Label)
+    integer fd;         
+    reg current_label;  // 0: Fixed, 1: Random
 
     // 2. Khởi tạo Module (Device Under Test - DUT)
     mac_core #(
@@ -43,13 +47,11 @@ module tb_mac_core();
     // 4. Khởi tạo lệnh xuất file VCD cho TVLA
     initial begin
         $dumpfile("tvla_mac_core.vcd");
-        // Dump toàn bộ tín hiệu của module tb_mac_core và các module con bên trong
         $dumpvars(0, tb_mac_core); 
     end
 
-    // 5. Task chạy 1 chuỗi MAC (Dùng chung cho cả Fixed và Random)
-    task run_mac_sequence;
-        input is_random; // 0: Dữ liệu Cố định | 1: Dữ liệu Ngẫu nhiên
+    // 5. Task chạy chuỗi MAC ĐAN XEN NGẪU NHIÊN (Interleaved)
+    task run_mac_interleaved;
         integer i;
         begin
             // B1. Xóa thanh ghi tích lũy
@@ -63,21 +65,28 @@ module tb_mac_core();
             @(negedge clk);
             start_i = 0;
 
-            // B3. Bơm dữ liệu liên tục vào mạch
+            // B3. Nạp dữ liệu 2000 lần
             for (i = 0; i < NUM_TESTS; i = i + 1) begin
                 data_en_i = 1;
                 
-                if (is_random == 1) begin
+                //  Lấy bit cuối của $random (0 hoặc 1)
+                current_label = $random & 1'b1; 
+                
+                // Ghi nhãn ra file text 
+                $fdisplay(fd, "%0d", current_label);
+                
+                if (current_label == 1'b1) begin
+                    // Nhãn 1 -> Dữ liệu Ngẫu nhiên
                     a_i = $random;
                     x_i = $random;
                 end 
                 else begin
-                    // Dữ liệu cố định: A = 1.0, X = 2.0 (Định dạng Q15.16)
-                    a_i = 32'h0001_0000; 
-                    x_i = 32'h0002_0000; 
+                    // Nhãn 0 -> Dữ liệu Cố định (Corner Cases)
+                    a_i = 32'h5555_5555; 
+                    x_i = 32'hFFFF_FFFF; 
                 end
                 
-                @(negedge clk); // Đợi 1 sườn xuống của clock (để đảm bảo setup time cho sườn lên)
+                @(negedge clk); // Đợi 1 sườn xuống
             end
 
             // B4. Kết thúc chuỗi, báo cho mạch dừng lại
@@ -104,28 +113,31 @@ module tb_mac_core();
         x_i       = 0;
 
         // Reset hệ thống
-        #20 rst_n = 1;
-        #10;
+        #200 rst_n = 1;
+        #50;
 
         $display("==================================================");
-        $display("[%0t] BAT DAU TEST TVLA - KHOI MAC CORE", $time);
+        $display("[%0t] BAT DAU TEST TVLA - PHUONG PHAP INTERLEAVED", $time);
         
-        // --- CHUỖI 1: FIXED DATA (Tập dữ liệu cố định) ---
-        $display("[%0t] Dang chay tap du lieu FIXED...", $time);
-        run_mac_sequence(0); 
-        $display("[%0t] Hoan thanh FIXED. Ket qua Y = %h", $time, y_o);
-        
-        #50; // Trễ một chút giữa 2 chuỗi để dễ nhìn trên wave
+        // Mở file txt để chuẩn bị ghi nhãn
+        fd = $fopen("tvla_labels.txt", "w");
+        if (fd == 0) begin
+            $display("LOI: Khong the tao file tvla_labels.txt");
+            $finish;
+        end
 
-        // --- CHUỖI 2: RANDOM DATA (Tập dữ liệu ngẫu nhiên) ---
-        $display("[%0t] Dang chay tap du lieu RANDOM...", $time);
-        run_mac_sequence(1);
-        $display("[%0t] Hoan thanh RANDOM. Ket qua Y = %h", $time, y_o);
+        // Gọi Task chạy 2000 mẫu đan xen
+        $display("[%0t] Dang bom du lieu va ghi Label...", $time);
+        run_mac_interleaved(); 
         
+        $display("[%0t] Hoan thanh. Ket qua Y = %h", $time, y_o);
         $display("==================================================");
+        
+        // Đóng file text
+        $fclose(fd);
         
         #100;
-        $finish; // Kết thúc mô phỏng, đóng file VCD
+        $finish; // Kết thúc mô phỏng
     end
 
 endmodule

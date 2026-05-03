@@ -2,10 +2,10 @@
 // Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
-// Date        : Mon Apr 27 10:52:02 2026
-// Host        : Trong_Hieu running 64-bit major release  (build 9200)
+// Date        : Sun May  3 19:51:00 2026
+// Host        : DESKTOP-0UL7VKJ running 64-bit major release  (build 9200)
 // Command     : write_verilog -mode timesim -nolib -sdf_anno true -force -file
-//               D:/Hoc_Tap/Dai_hoc/HK6/SoC/BaiTap/20-04/mac_core/mac_core.sim/sim_1/impl/timing/xsim/tb_mac_core_time_impl.v
+//               C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core/mac_core.sim/sim_1/impl/timing/xsim/tb_mac_core_time_impl.v
 // Design      : mac_core
 // Purpose     : This verilog netlist is a timing simulation representation of the design and should not be modified or
 //               synthesized. Please ensure that this netlist is used with the corresponding SDF file.
@@ -1764,7 +1764,7 @@ module DSP48E2_UNIQ_BASE_
         .PREADD_AB({\DSP_PREADD_DATA.PREADD_AB<26> ,\DSP_PREADD_DATA.PREADD_AB<25> ,\DSP_PREADD_DATA.PREADD_AB<24> ,\DSP_PREADD_DATA.PREADD_AB<23> ,\DSP_PREADD_DATA.PREADD_AB<22> ,\DSP_PREADD_DATA.PREADD_AB<21> ,\DSP_PREADD_DATA.PREADD_AB<20> ,\DSP_PREADD_DATA.PREADD_AB<19> ,\DSP_PREADD_DATA.PREADD_AB<18> ,\DSP_PREADD_DATA.PREADD_AB<17> ,\DSP_PREADD_DATA.PREADD_AB<16> ,\DSP_PREADD_DATA.PREADD_AB<15> ,\DSP_PREADD_DATA.PREADD_AB<14> ,\DSP_PREADD_DATA.PREADD_AB<13> ,\DSP_PREADD_DATA.PREADD_AB<12> ,\DSP_PREADD_DATA.PREADD_AB<11> ,\DSP_PREADD_DATA.PREADD_AB<10> ,\DSP_PREADD_DATA.PREADD_AB<9> ,\DSP_PREADD_DATA.PREADD_AB<8> ,\DSP_PREADD_DATA.PREADD_AB<7> ,\DSP_PREADD_DATA.PREADD_AB<6> ,\DSP_PREADD_DATA.PREADD_AB<5> ,\DSP_PREADD_DATA.PREADD_AB<4> ,\DSP_PREADD_DATA.PREADD_AB<3> ,\DSP_PREADD_DATA.PREADD_AB<2> ,\DSP_PREADD_DATA.PREADD_AB<1> ,\DSP_PREADD_DATA.PREADD_AB<0> }));
 endmodule
 
-module DSP48E2_HD180
+module DSP48E2_HD252
    (ACOUT,
     BCOUT,
     CARRYCASCOUT,
@@ -3514,7 +3514,7 @@ module DSP48E2_HD180
         .PREADD_AB({\DSP_PREADD_DATA.PREADD_AB<26> ,\DSP_PREADD_DATA.PREADD_AB<25> ,\DSP_PREADD_DATA.PREADD_AB<24> ,\DSP_PREADD_DATA.PREADD_AB<23> ,\DSP_PREADD_DATA.PREADD_AB<22> ,\DSP_PREADD_DATA.PREADD_AB<21> ,\DSP_PREADD_DATA.PREADD_AB<20> ,\DSP_PREADD_DATA.PREADD_AB<19> ,\DSP_PREADD_DATA.PREADD_AB<18> ,\DSP_PREADD_DATA.PREADD_AB<17> ,\DSP_PREADD_DATA.PREADD_AB<16> ,\DSP_PREADD_DATA.PREADD_AB<15> ,\DSP_PREADD_DATA.PREADD_AB<14> ,\DSP_PREADD_DATA.PREADD_AB<13> ,\DSP_PREADD_DATA.PREADD_AB<12> ,\DSP_PREADD_DATA.PREADD_AB<11> ,\DSP_PREADD_DATA.PREADD_AB<10> ,\DSP_PREADD_DATA.PREADD_AB<9> ,\DSP_PREADD_DATA.PREADD_AB<8> ,\DSP_PREADD_DATA.PREADD_AB<7> ,\DSP_PREADD_DATA.PREADD_AB<6> ,\DSP_PREADD_DATA.PREADD_AB<5> ,\DSP_PREADD_DATA.PREADD_AB<4> ,\DSP_PREADD_DATA.PREADD_AB<3> ,\DSP_PREADD_DATA.PREADD_AB<2> ,\DSP_PREADD_DATA.PREADD_AB<1> ,\DSP_PREADD_DATA.PREADD_AB<0> }));
 endmodule
 
-module DSP48E2_HD181
+module DSP48E2_HD253
    (ACOUT,
     BCOUT,
     CARRYCASCOUT,
@@ -5264,7 +5264,7 @@ module DSP48E2_HD181
         .PREADD_AB({\DSP_PREADD_DATA.PREADD_AB<26> ,\DSP_PREADD_DATA.PREADD_AB<25> ,\DSP_PREADD_DATA.PREADD_AB<24> ,\DSP_PREADD_DATA.PREADD_AB<23> ,\DSP_PREADD_DATA.PREADD_AB<22> ,\DSP_PREADD_DATA.PREADD_AB<21> ,\DSP_PREADD_DATA.PREADD_AB<20> ,\DSP_PREADD_DATA.PREADD_AB<19> ,\DSP_PREADD_DATA.PREADD_AB<18> ,\DSP_PREADD_DATA.PREADD_AB<17> ,\DSP_PREADD_DATA.PREADD_AB<16> ,\DSP_PREADD_DATA.PREADD_AB<15> ,\DSP_PREADD_DATA.PREADD_AB<14> ,\DSP_PREADD_DATA.PREADD_AB<13> ,\DSP_PREADD_DATA.PREADD_AB<12> ,\DSP_PREADD_DATA.PREADD_AB<11> ,\DSP_PREADD_DATA.PREADD_AB<10> ,\DSP_PREADD_DATA.PREADD_AB<9> ,\DSP_PREADD_DATA.PREADD_AB<8> ,\DSP_PREADD_DATA.PREADD_AB<7> ,\DSP_PREADD_DATA.PREADD_AB<6> ,\DSP_PREADD_DATA.PREADD_AB<5> ,\DSP_PREADD_DATA.PREADD_AB<4> ,\DSP_PREADD_DATA.PREADD_AB<3> ,\DSP_PREADD_DATA.PREADD_AB<2> ,\DSP_PREADD_DATA.PREADD_AB<1> ,\DSP_PREADD_DATA.PREADD_AB<0> }));
 endmodule
 
-module DSP48E2_HD182
+module DSP48E2_HD254
    (ACOUT,
     BCOUT,
     CARRYCASCOUT,
@@ -7044,7 +7044,7 @@ module IBUF_UNIQ_BASE_
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD145
+module IBUF_HD217
    (O,
     I);
   output O;
@@ -7074,7 +7074,7 @@ module IBUF_HD145
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD146
+module IBUF_HD218
    (O,
     I);
   output O;
@@ -7104,7 +7104,7 @@ module IBUF_HD146
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD147
+module IBUF_HD219
    (O,
     I);
   output O;
@@ -7134,7 +7134,7 @@ module IBUF_HD147
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD148
+module IBUF_HD220
    (O,
     I);
   output O;
@@ -7164,7 +7164,7 @@ module IBUF_HD148
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD149
+module IBUF_HD221
    (O,
     I);
   output O;
@@ -7194,7 +7194,7 @@ module IBUF_HD149
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD150
+module IBUF_HD222
    (O,
     I);
   output O;
@@ -7224,7 +7224,7 @@ module IBUF_HD150
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD151
+module IBUF_HD223
    (O,
     I);
   output O;
@@ -7254,7 +7254,7 @@ module IBUF_HD151
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD152
+module IBUF_HD224
    (O,
     I);
   output O;
@@ -7284,7 +7284,7 @@ module IBUF_HD152
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD153
+module IBUF_HD225
    (O,
     I);
   output O;
@@ -7314,7 +7314,7 @@ module IBUF_HD153
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD154
+module IBUF_HD226
    (O,
     I);
   output O;
@@ -7344,7 +7344,7 @@ module IBUF_HD154
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD155
+module IBUF_HD227
    (O,
     I);
   output O;
@@ -7374,7 +7374,7 @@ module IBUF_HD155
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD156
+module IBUF_HD228
    (O,
     I);
   output O;
@@ -7404,7 +7404,7 @@ module IBUF_HD156
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD157
+module IBUF_HD229
    (O,
     I);
   output O;
@@ -7434,7 +7434,7 @@ module IBUF_HD157
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD158
+module IBUF_HD230
    (O,
     I);
   output O;
@@ -7464,7 +7464,7 @@ module IBUF_HD158
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD159
+module IBUF_HD231
    (O,
     I);
   output O;
@@ -7494,7 +7494,7 @@ module IBUF_HD159
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD160
+module IBUF_HD232
    (O,
     I);
   output O;
@@ -7524,7 +7524,7 @@ module IBUF_HD160
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD161
+module IBUF_HD233
    (O,
     I);
   output O;
@@ -7554,7 +7554,7 @@ module IBUF_HD161
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD162
+module IBUF_HD234
    (O,
     I);
   output O;
@@ -7584,7 +7584,7 @@ module IBUF_HD162
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD163
+module IBUF_HD235
    (O,
     I);
   output O;
@@ -7614,7 +7614,7 @@ module IBUF_HD163
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD164
+module IBUF_HD236
    (O,
     I);
   output O;
@@ -7644,7 +7644,7 @@ module IBUF_HD164
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD165
+module IBUF_HD237
    (O,
     I);
   output O;
@@ -7674,7 +7674,7 @@ module IBUF_HD165
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD166
+module IBUF_HD238
    (O,
     I);
   output O;
@@ -7704,7 +7704,7 @@ module IBUF_HD166
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD167
+module IBUF_HD239
    (O,
     I);
   output O;
@@ -7734,7 +7734,7 @@ module IBUF_HD167
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD168
+module IBUF_HD240
    (O,
     I);
   output O;
@@ -7764,7 +7764,7 @@ module IBUF_HD168
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD169
+module IBUF_HD241
    (O,
     I);
   output O;
@@ -7794,7 +7794,7 @@ module IBUF_HD169
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD170
+module IBUF_HD242
    (O,
     I);
   output O;
@@ -7824,7 +7824,7 @@ module IBUF_HD170
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD171
+module IBUF_HD243
    (O,
     I);
   output O;
@@ -7854,7 +7854,7 @@ module IBUF_HD171
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD172
+module IBUF_HD244
    (O,
     I);
   output O;
@@ -7884,7 +7884,7 @@ module IBUF_HD172
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD173
+module IBUF_HD245
    (O,
     I);
   output O;
@@ -7914,7 +7914,7 @@ module IBUF_HD173
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD174
+module IBUF_HD246
    (O,
     I);
   output O;
@@ -7944,7 +7944,7 @@ module IBUF_HD174
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD175
+module IBUF_HD247
    (O,
     I);
   output O;
@@ -7974,7 +7974,7 @@ module IBUF_HD175
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD176
+module IBUF_HD248
    (O,
     I);
   output O;
@@ -8004,7 +8004,7 @@ module IBUF_HD176
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD177
+module IBUF_HD249
    (O,
     I);
   output O;
@@ -8034,7 +8034,7 @@ module IBUF_HD177
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD178
+module IBUF_HD250
    (O,
     I);
   output O;
@@ -8064,7 +8064,7 @@ module IBUF_HD178
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD179
+module IBUF_HD251
    (O,
     I);
   output O;
@@ -8094,7 +8094,7 @@ module IBUF_HD179
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD183
+module IBUF_HD255
    (O,
     I);
   output O;
@@ -8124,7 +8124,7 @@ module IBUF_HD183
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD184
+module IBUF_HD256
    (O,
     I);
   output O;
@@ -8154,7 +8154,7 @@ module IBUF_HD184
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD185
+module IBUF_HD257
    (O,
     I);
   output O;
@@ -8184,7 +8184,7 @@ module IBUF_HD185
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD186
+module IBUF_HD258
    (O,
     I);
   output O;
@@ -8214,7 +8214,7 @@ module IBUF_HD186
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD187
+module IBUF_HD259
    (O,
     I);
   output O;
@@ -8244,7 +8244,7 @@ module IBUF_HD187
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD188
+module IBUF_HD260
    (O,
     I);
   output O;
@@ -8274,7 +8274,7 @@ module IBUF_HD188
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD189
+module IBUF_HD261
    (O,
     I);
   output O;
@@ -8304,7 +8304,7 @@ module IBUF_HD189
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD190
+module IBUF_HD262
    (O,
     I);
   output O;
@@ -8334,7 +8334,7 @@ module IBUF_HD190
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD191
+module IBUF_HD263
    (O,
     I);
   output O;
@@ -8364,7 +8364,7 @@ module IBUF_HD191
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD192
+module IBUF_HD264
    (O,
     I);
   output O;
@@ -8394,7 +8394,7 @@ module IBUF_HD192
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD193
+module IBUF_HD265
    (O,
     I);
   output O;
@@ -8424,7 +8424,7 @@ module IBUF_HD193
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD194
+module IBUF_HD266
    (O,
     I);
   output O;
@@ -8454,7 +8454,7 @@ module IBUF_HD194
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD195
+module IBUF_HD267
    (O,
     I);
   output O;
@@ -8484,7 +8484,7 @@ module IBUF_HD195
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD196
+module IBUF_HD268
    (O,
     I);
   output O;
@@ -8514,7 +8514,7 @@ module IBUF_HD196
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD197
+module IBUF_HD269
    (O,
     I);
   output O;
@@ -8544,7 +8544,7 @@ module IBUF_HD197
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD198
+module IBUF_HD270
    (O,
     I);
   output O;
@@ -8574,7 +8574,7 @@ module IBUF_HD198
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD199
+module IBUF_HD271
    (O,
     I);
   output O;
@@ -8604,7 +8604,7 @@ module IBUF_HD199
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD200
+module IBUF_HD272
    (O,
     I);
   output O;
@@ -8634,7 +8634,7 @@ module IBUF_HD200
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD201
+module IBUF_HD273
    (O,
     I);
   output O;
@@ -8664,7 +8664,7 @@ module IBUF_HD201
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD202
+module IBUF_HD274
    (O,
     I);
   output O;
@@ -8694,7 +8694,7 @@ module IBUF_HD202
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD203
+module IBUF_HD275
    (O,
     I);
   output O;
@@ -8724,7 +8724,7 @@ module IBUF_HD203
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD204
+module IBUF_HD276
    (O,
     I);
   output O;
@@ -8754,7 +8754,7 @@ module IBUF_HD204
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD205
+module IBUF_HD277
    (O,
     I);
   output O;
@@ -8784,7 +8784,7 @@ module IBUF_HD205
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD206
+module IBUF_HD278
    (O,
     I);
   output O;
@@ -8814,7 +8814,7 @@ module IBUF_HD206
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD207
+module IBUF_HD279
    (O,
     I);
   output O;
@@ -8844,7 +8844,7 @@ module IBUF_HD207
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD208
+module IBUF_HD280
    (O,
     I);
   output O;
@@ -8874,7 +8874,7 @@ module IBUF_HD208
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD209
+module IBUF_HD281
    (O,
     I);
   output O;
@@ -8904,7 +8904,7 @@ module IBUF_HD209
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD210
+module IBUF_HD282
    (O,
     I);
   output O;
@@ -8934,7 +8934,7 @@ module IBUF_HD210
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD211
+module IBUF_HD283
    (O,
     I);
   output O;
@@ -8964,7 +8964,7 @@ module IBUF_HD211
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD212
+module IBUF_HD284
    (O,
     I);
   output O;
@@ -8994,7 +8994,7 @@ module IBUF_HD212
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD213
+module IBUF_HD285
    (O,
     I);
   output O;
@@ -9024,7 +9024,7 @@ module IBUF_HD213
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD214
+module IBUF_HD286
    (O,
     I);
   output O;
@@ -9054,7 +9054,7 @@ module IBUF_HD214
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD215
+module IBUF_HD287
    (O,
     I);
   output O;
@@ -9084,7 +9084,7 @@ module IBUF_HD215
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD216
+module IBUF_HD288
    (O,
     I);
   output O;
@@ -9523,136 +9523,103 @@ end
         .CLR(rst_n_IBUF),
         .D(state_next_r[1]),
         .Q(state_curr_r[1]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
   IBUF_UNIQ_BASE_ \a_i_IBUF[0]_inst 
        (.I(a_i[0]),
         .O(a_i_IBUF[0]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD145 \a_i_IBUF[10]_inst 
+  IBUF_HD217 \a_i_IBUF[10]_inst 
        (.I(a_i[10]),
         .O(a_i_IBUF[10]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD146 \a_i_IBUF[11]_inst 
+  IBUF_HD218 \a_i_IBUF[11]_inst 
        (.I(a_i[11]),
         .O(a_i_IBUF[11]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD147 \a_i_IBUF[12]_inst 
+  IBUF_HD219 \a_i_IBUF[12]_inst 
        (.I(a_i[12]),
         .O(a_i_IBUF[12]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD148 \a_i_IBUF[13]_inst 
+  IBUF_HD220 \a_i_IBUF[13]_inst 
        (.I(a_i[13]),
         .O(a_i_IBUF[13]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD149 \a_i_IBUF[14]_inst 
+  IBUF_HD221 \a_i_IBUF[14]_inst 
        (.I(a_i[14]),
         .O(a_i_IBUF[14]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD150 \a_i_IBUF[15]_inst 
+  IBUF_HD222 \a_i_IBUF[15]_inst 
        (.I(a_i[15]),
         .O(a_i_IBUF[15]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD151 \a_i_IBUF[16]_inst 
+  IBUF_HD223 \a_i_IBUF[16]_inst 
        (.I(a_i[16]),
         .O(a_i_IBUF[16]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD152 \a_i_IBUF[17]_inst 
+  IBUF_HD224 \a_i_IBUF[17]_inst 
        (.I(a_i[17]),
         .O(a_i_IBUF[17]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD153 \a_i_IBUF[18]_inst 
+  IBUF_HD225 \a_i_IBUF[18]_inst 
        (.I(a_i[18]),
         .O(a_i_IBUF[18]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD154 \a_i_IBUF[19]_inst 
+  IBUF_HD226 \a_i_IBUF[19]_inst 
        (.I(a_i[19]),
         .O(a_i_IBUF[19]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD155 \a_i_IBUF[1]_inst 
+  IBUF_HD227 \a_i_IBUF[1]_inst 
        (.I(a_i[1]),
         .O(a_i_IBUF[1]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD156 \a_i_IBUF[20]_inst 
+  IBUF_HD228 \a_i_IBUF[20]_inst 
        (.I(a_i[20]),
         .O(a_i_IBUF[20]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD157 \a_i_IBUF[21]_inst 
+  IBUF_HD229 \a_i_IBUF[21]_inst 
        (.I(a_i[21]),
         .O(a_i_IBUF[21]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD158 \a_i_IBUF[22]_inst 
+  IBUF_HD230 \a_i_IBUF[22]_inst 
        (.I(a_i[22]),
         .O(a_i_IBUF[22]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD159 \a_i_IBUF[23]_inst 
+  IBUF_HD231 \a_i_IBUF[23]_inst 
        (.I(a_i[23]),
         .O(a_i_IBUF[23]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD160 \a_i_IBUF[24]_inst 
+  IBUF_HD232 \a_i_IBUF[24]_inst 
        (.I(a_i[24]),
         .O(a_i_IBUF[24]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD161 \a_i_IBUF[25]_inst 
+  IBUF_HD233 \a_i_IBUF[25]_inst 
        (.I(a_i[25]),
         .O(a_i_IBUF[25]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD162 \a_i_IBUF[26]_inst 
+  IBUF_HD234 \a_i_IBUF[26]_inst 
        (.I(a_i[26]),
         .O(a_i_IBUF[26]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD163 \a_i_IBUF[27]_inst 
+  IBUF_HD235 \a_i_IBUF[27]_inst 
        (.I(a_i[27]),
         .O(a_i_IBUF[27]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD164 \a_i_IBUF[28]_inst 
+  IBUF_HD236 \a_i_IBUF[28]_inst 
        (.I(a_i[28]),
         .O(a_i_IBUF[28]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD165 \a_i_IBUF[29]_inst 
+  IBUF_HD237 \a_i_IBUF[29]_inst 
        (.I(a_i[29]),
         .O(a_i_IBUF[29]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD166 \a_i_IBUF[2]_inst 
+  IBUF_HD238 \a_i_IBUF[2]_inst 
        (.I(a_i[2]),
         .O(a_i_IBUF[2]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD167 \a_i_IBUF[30]_inst 
+  IBUF_HD239 \a_i_IBUF[30]_inst 
        (.I(a_i[30]),
         .O(a_i_IBUF[30]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD168 \a_i_IBUF[31]_inst 
+  IBUF_HD240 \a_i_IBUF[31]_inst 
        (.I(a_i[31]),
         .O(a_i_IBUF[31]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD169 \a_i_IBUF[3]_inst 
+  IBUF_HD241 \a_i_IBUF[3]_inst 
        (.I(a_i[3]),
         .O(a_i_IBUF[3]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD170 \a_i_IBUF[4]_inst 
+  IBUF_HD242 \a_i_IBUF[4]_inst 
        (.I(a_i[4]),
         .O(a_i_IBUF[4]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD171 \a_i_IBUF[5]_inst 
+  IBUF_HD243 \a_i_IBUF[5]_inst 
        (.I(a_i[5]),
         .O(a_i_IBUF[5]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD172 \a_i_IBUF[6]_inst 
+  IBUF_HD244 \a_i_IBUF[6]_inst 
        (.I(a_i[6]),
         .O(a_i_IBUF[6]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD173 \a_i_IBUF[7]_inst 
+  IBUF_HD245 \a_i_IBUF[7]_inst 
        (.I(a_i[7]),
         .O(a_i_IBUF[7]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD174 \a_i_IBUF[8]_inst 
+  IBUF_HD246 \a_i_IBUF[8]_inst 
        (.I(a_i[8]),
         .O(a_i_IBUF[8]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD175 \a_i_IBUF[9]_inst 
+  IBUF_HD247 \a_i_IBUF[9]_inst 
        (.I(a_i[9]),
         .O(a_i_IBUF[9]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD176 clear_i_IBUF_inst
+  IBUF_HD248 clear_i_IBUF_inst
        (.I(clear_i),
         .O(clear_i_IBUF));
   (* XILINX_LEGACY_PRIM = "BUFG" *) 
@@ -9665,16 +9632,13 @@ end
        (.CE(1'b1),
         .I(clk_IBUF),
         .O(clk_IBUF_BUFG));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD177 clk_IBUF_inst
+  IBUF_HD249 clk_IBUF_inst
        (.I(clk),
         .O(clk_IBUF));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD178 data_en_i_IBUF_inst
+  IBUF_HD250 data_en_i_IBUF_inst
        (.I(data_en_i),
         .O(data_en_i_IBUF));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD179 done_i_IBUF_inst
+  IBUF_HD251 done_i_IBUF_inst
        (.I(done_i),
         .O(done_i_IBUF));
   (* ACASCREG = "0" *) 
@@ -9709,7 +9673,6 @@ end
   (* USE_PATTERN_DETECT = "NO_PATDET" *) 
   (* USE_SIMD = "ONE48" *) 
   (* USE_WIDEXOR = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "DSP48E2" *) 
   (* XORSIMD = "XOR24_48_96" *) 
   DSP48E2_UNIQ_BASE_ mul_full_w
        (.A({1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,x_i_IBUF[16:0]}),
@@ -9794,9 +9757,8 @@ end
   (* USE_PATTERN_DETECT = "NO_PATDET" *) 
   (* USE_SIMD = "ONE48" *) 
   (* USE_WIDEXOR = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "DSP48E2" *) 
   (* XORSIMD = "XOR24_48_96" *) 
-  DSP48E2_HD180 mul_full_w__0
+  DSP48E2_HD252 mul_full_w__0
        (.A({a_i_IBUF[31],a_i_IBUF[31],a_i_IBUF[31],a_i_IBUF[31],a_i_IBUF[31],a_i_IBUF[31],a_i_IBUF[31],a_i_IBUF[31],a_i_IBUF[31],a_i_IBUF[31],a_i_IBUF[31],a_i_IBUF[31],a_i_IBUF[31],a_i_IBUF[31],a_i_IBUF[31],a_i_IBUF[31:17]}),
         .ACIN({1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0}),
         .ACOUT(NLW_mul_full_w__0_ACOUT_UNCONNECTED[29:0]),
@@ -9879,9 +9841,8 @@ end
   (* USE_PATTERN_DETECT = "NO_PATDET" *) 
   (* USE_SIMD = "ONE48" *) 
   (* USE_WIDEXOR = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "DSP48E2" *) 
   (* XORSIMD = "XOR24_48_96" *) 
-  DSP48E2_HD181 mul_full_w__1
+  DSP48E2_HD253 mul_full_w__1
        (.A({1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,a_i_IBUF[16:0]}),
         .ACIN({1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0}),
         .ACOUT({mul_full_w__1_n_24,mul_full_w__1_n_25,mul_full_w__1_n_26,mul_full_w__1_n_27,mul_full_w__1_n_28,mul_full_w__1_n_29,mul_full_w__1_n_30,mul_full_w__1_n_31,mul_full_w__1_n_32,mul_full_w__1_n_33,mul_full_w__1_n_34,mul_full_w__1_n_35,mul_full_w__1_n_36,mul_full_w__1_n_37,mul_full_w__1_n_38,mul_full_w__1_n_39,mul_full_w__1_n_40,mul_full_w__1_n_41,mul_full_w__1_n_42,mul_full_w__1_n_43,mul_full_w__1_n_44,mul_full_w__1_n_45,mul_full_w__1_n_46,mul_full_w__1_n_47,mul_full_w__1_n_48,mul_full_w__1_n_49,mul_full_w__1_n_50,mul_full_w__1_n_51,mul_full_w__1_n_52,mul_full_w__1_n_53}),
@@ -9964,9 +9925,8 @@ end
   (* USE_PATTERN_DETECT = "NO_PATDET" *) 
   (* USE_SIMD = "ONE48" *) 
   (* USE_WIDEXOR = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "DSP48E2" *) 
   (* XORSIMD = "XOR24_48_96" *) 
-  DSP48E2_HD182 mul_full_w__2
+  DSP48E2_HD254 mul_full_w__2
        (.A({1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0}),
         .ACIN({mul_full_w__1_n_24,mul_full_w__1_n_25,mul_full_w__1_n_26,mul_full_w__1_n_27,mul_full_w__1_n_28,mul_full_w__1_n_29,mul_full_w__1_n_30,mul_full_w__1_n_31,mul_full_w__1_n_32,mul_full_w__1_n_33,mul_full_w__1_n_34,mul_full_w__1_n_35,mul_full_w__1_n_36,mul_full_w__1_n_37,mul_full_w__1_n_38,mul_full_w__1_n_39,mul_full_w__1_n_40,mul_full_w__1_n_41,mul_full_w__1_n_42,mul_full_w__1_n_43,mul_full_w__1_n_44,mul_full_w__1_n_45,mul_full_w__1_n_46,mul_full_w__1_n_47,mul_full_w__1_n_48,mul_full_w__1_n_49,mul_full_w__1_n_50,mul_full_w__1_n_51,mul_full_w__1_n_52,mul_full_w__1_n_53}),
         .ACOUT(NLW_mul_full_w__2_ACOUT_UNCONNECTED[29:0]),
@@ -10017,12 +9977,10 @@ end
         .RSTP(1'b0),
         .UNDERFLOW(NLW_mul_full_w__2_UNDERFLOW_UNCONNECTED),
         .XOROUT(NLW_mul_full_w__2_XOROUT_UNCONNECTED[7:0]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD183 rst_n_IBUF_inst
+  IBUF_HD255 rst_n_IBUF_inst
        (.I(rst_n),
         .O(rst_n_IBUF));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD184 start_i_IBUF_inst
+  IBUF_HD256 start_i_IBUF_inst
        (.I(start_i),
         .O(start_i_IBUF));
   OBUF valid_o_OBUF_inst
@@ -10045,132 +10003,100 @@ end
         .CLR(rst_n_IBUF),
         .D(valid_r_i_1_n_0),
         .Q(valid_o_OBUF));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD185 \x_i_IBUF[0]_inst 
+  IBUF_HD257 \x_i_IBUF[0]_inst 
        (.I(x_i[0]),
         .O(x_i_IBUF[0]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD186 \x_i_IBUF[10]_inst 
+  IBUF_HD258 \x_i_IBUF[10]_inst 
        (.I(x_i[10]),
         .O(x_i_IBUF[10]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD187 \x_i_IBUF[11]_inst 
+  IBUF_HD259 \x_i_IBUF[11]_inst 
        (.I(x_i[11]),
         .O(x_i_IBUF[11]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD188 \x_i_IBUF[12]_inst 
+  IBUF_HD260 \x_i_IBUF[12]_inst 
        (.I(x_i[12]),
         .O(x_i_IBUF[12]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD189 \x_i_IBUF[13]_inst 
+  IBUF_HD261 \x_i_IBUF[13]_inst 
        (.I(x_i[13]),
         .O(x_i_IBUF[13]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD190 \x_i_IBUF[14]_inst 
+  IBUF_HD262 \x_i_IBUF[14]_inst 
        (.I(x_i[14]),
         .O(x_i_IBUF[14]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD191 \x_i_IBUF[15]_inst 
+  IBUF_HD263 \x_i_IBUF[15]_inst 
        (.I(x_i[15]),
         .O(x_i_IBUF[15]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD192 \x_i_IBUF[16]_inst 
+  IBUF_HD264 \x_i_IBUF[16]_inst 
        (.I(x_i[16]),
         .O(x_i_IBUF[16]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD193 \x_i_IBUF[17]_inst 
+  IBUF_HD265 \x_i_IBUF[17]_inst 
        (.I(x_i[17]),
         .O(x_i_IBUF[17]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD194 \x_i_IBUF[18]_inst 
+  IBUF_HD266 \x_i_IBUF[18]_inst 
        (.I(x_i[18]),
         .O(x_i_IBUF[18]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD195 \x_i_IBUF[19]_inst 
+  IBUF_HD267 \x_i_IBUF[19]_inst 
        (.I(x_i[19]),
         .O(x_i_IBUF[19]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD196 \x_i_IBUF[1]_inst 
+  IBUF_HD268 \x_i_IBUF[1]_inst 
        (.I(x_i[1]),
         .O(x_i_IBUF[1]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD197 \x_i_IBUF[20]_inst 
+  IBUF_HD269 \x_i_IBUF[20]_inst 
        (.I(x_i[20]),
         .O(x_i_IBUF[20]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD198 \x_i_IBUF[21]_inst 
+  IBUF_HD270 \x_i_IBUF[21]_inst 
        (.I(x_i[21]),
         .O(x_i_IBUF[21]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD199 \x_i_IBUF[22]_inst 
+  IBUF_HD271 \x_i_IBUF[22]_inst 
        (.I(x_i[22]),
         .O(x_i_IBUF[22]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD200 \x_i_IBUF[23]_inst 
+  IBUF_HD272 \x_i_IBUF[23]_inst 
        (.I(x_i[23]),
         .O(x_i_IBUF[23]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD201 \x_i_IBUF[24]_inst 
+  IBUF_HD273 \x_i_IBUF[24]_inst 
        (.I(x_i[24]),
         .O(x_i_IBUF[24]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD202 \x_i_IBUF[25]_inst 
+  IBUF_HD274 \x_i_IBUF[25]_inst 
        (.I(x_i[25]),
         .O(x_i_IBUF[25]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD203 \x_i_IBUF[26]_inst 
+  IBUF_HD275 \x_i_IBUF[26]_inst 
        (.I(x_i[26]),
         .O(x_i_IBUF[26]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD204 \x_i_IBUF[27]_inst 
+  IBUF_HD276 \x_i_IBUF[27]_inst 
        (.I(x_i[27]),
         .O(x_i_IBUF[27]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD205 \x_i_IBUF[28]_inst 
+  IBUF_HD277 \x_i_IBUF[28]_inst 
        (.I(x_i[28]),
         .O(x_i_IBUF[28]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD206 \x_i_IBUF[29]_inst 
+  IBUF_HD278 \x_i_IBUF[29]_inst 
        (.I(x_i[29]),
         .O(x_i_IBUF[29]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD207 \x_i_IBUF[2]_inst 
+  IBUF_HD279 \x_i_IBUF[2]_inst 
        (.I(x_i[2]),
         .O(x_i_IBUF[2]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD208 \x_i_IBUF[30]_inst 
+  IBUF_HD280 \x_i_IBUF[30]_inst 
        (.I(x_i[30]),
         .O(x_i_IBUF[30]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD209 \x_i_IBUF[31]_inst 
+  IBUF_HD281 \x_i_IBUF[31]_inst 
        (.I(x_i[31]),
         .O(x_i_IBUF[31]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD210 \x_i_IBUF[3]_inst 
+  IBUF_HD282 \x_i_IBUF[3]_inst 
        (.I(x_i[3]),
         .O(x_i_IBUF[3]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD211 \x_i_IBUF[4]_inst 
+  IBUF_HD283 \x_i_IBUF[4]_inst 
        (.I(x_i[4]),
         .O(x_i_IBUF[4]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD212 \x_i_IBUF[5]_inst 
+  IBUF_HD284 \x_i_IBUF[5]_inst 
        (.I(x_i[5]),
         .O(x_i_IBUF[5]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD213 \x_i_IBUF[6]_inst 
+  IBUF_HD285 \x_i_IBUF[6]_inst 
        (.I(x_i[6]),
         .O(x_i_IBUF[6]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD214 \x_i_IBUF[7]_inst 
+  IBUF_HD286 \x_i_IBUF[7]_inst 
        (.I(x_i[7]),
         .O(x_i_IBUF[7]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD215 \x_i_IBUF[8]_inst 
+  IBUF_HD287 \x_i_IBUF[8]_inst 
        (.I(x_i[8]),
         .O(x_i_IBUF[8]));
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD216 \x_i_IBUF[9]_inst 
+  IBUF_HD288 \x_i_IBUF[9]_inst 
        (.I(x_i[9]),
         .O(x_i_IBUF[9]));
   OBUF \y_o_OBUF[0]_inst 

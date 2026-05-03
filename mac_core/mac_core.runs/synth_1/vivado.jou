@@ -3,22 +3,22 @@
 # SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
 # IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
 # SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
-# Start of session at: Mon Apr 27 10:20:39 2026
-# Process ID         : 12616
-# Current directory  : D:/Hoc_Tap/Dai_hoc/HK6/SoC/BaiTap/20-04/mac_core/mac_core.runs/synth_1
+# Start of session at: Sun May  3 19:46:00 2026
+# Process ID         : 21604
+# Current directory  : C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core/mac_core.runs/synth_1
 # Command line       : vivado.exe -log mac_core.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mac_core.tcl
-# Log file           : D:/Hoc_Tap/Dai_hoc/HK6/SoC/BaiTap/20-04/mac_core/mac_core.runs/synth_1/mac_core.vds
-# Journal file       : D:/Hoc_Tap/Dai_hoc/HK6/SoC/BaiTap/20-04/mac_core/mac_core.runs/synth_1\vivado.jou
-# Running On         : Trong_Hieu
+# Log file           : C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core/mac_core.runs/synth_1/mac_core.vds
+# Journal file       : C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core/mac_core.runs/synth_1\vivado.jou
+# Running On         : DESKTOP-0UL7VKJ
 # Platform           : Windows Server 2016 or Windows 10
 # Operating System   : 26200
-# Processor Detail   : AMD Ryzen 5 6600H with Radeon Graphics         
+# Processor Detail   : AMD Ryzen 5 5600H with Radeon Graphics         
 # CPU Frequency      : 3294 MHz
 # CPU Physical cores : 6
 # CPU Logical cores  : 12
-# Host memory        : 16361 MB
-# Swap memory        : 11274 MB
-# Total Virtual      : 27635 MB
-# Available Virtual  : 3821 MB
+# Host memory        : 16474 MB
+# Swap memory        : 14260 MB
+# Total Virtual      : 30734 MB
+# Available Virtual  : 5267 MB
 #-----------------------------------------------------------
 source mac_core.tcl -notrace

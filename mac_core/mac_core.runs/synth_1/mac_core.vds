@@ -3,75 +3,69 @@
 # SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
 # IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
 # SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
-# Start of session at: Mon Apr 27 10:20:39 2026
-# Process ID         : 12616
-# Current directory  : D:/Hoc_Tap/Dai_hoc/HK6/SoC/BaiTap/20-04/mac_core/mac_core.runs/synth_1
+# Start of session at: Sun May  3 19:46:00 2026
+# Process ID         : 21604
+# Current directory  : C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core/mac_core.runs/synth_1
 # Command line       : vivado.exe -log mac_core.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mac_core.tcl
-# Log file           : D:/Hoc_Tap/Dai_hoc/HK6/SoC/BaiTap/20-04/mac_core/mac_core.runs/synth_1/mac_core.vds
-# Journal file       : D:/Hoc_Tap/Dai_hoc/HK6/SoC/BaiTap/20-04/mac_core/mac_core.runs/synth_1\vivado.jou
-# Running On         : Trong_Hieu
+# Log file           : C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core/mac_core.runs/synth_1/mac_core.vds
+# Journal file       : C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core/mac_core.runs/synth_1\vivado.jou
+# Running On         : DESKTOP-0UL7VKJ
 # Platform           : Windows Server 2016 or Windows 10
 # Operating System   : 26200
-# Processor Detail   : AMD Ryzen 5 6600H with Radeon Graphics         
+# Processor Detail   : AMD Ryzen 5 5600H with Radeon Graphics         
 # CPU Frequency      : 3294 MHz
 # CPU Physical cores : 6
 # CPU Logical cores  : 12
-# Host memory        : 16361 MB
-# Swap memory        : 11274 MB
-# Total Virtual      : 27635 MB
-# Available Virtual  : 3821 MB
+# Host memory        : 16474 MB
+# Swap memory        : 14260 MB
+# Total Virtual      : 30734 MB
+# Available Virtual  : 5267 MB
 #-----------------------------------------------------------
 source mac_core.tcl -notrace
-create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 518.648 ; gain = 212.680
-Command: read_checkpoint -auto_incremental -incremental D:/Hoc_Tap/Dai_hoc/HK6/SoC/BaiTap/20-04/mac_core/mac_core.srcs/utils_1/imports/synth_1/tb_mac_core.dcp
-INFO: [Vivado 12-5825] Read reference checkpoint from D:/Hoc_Tap/Dai_hoc/HK6/SoC/BaiTap/20-04/mac_core/mac_core.srcs/utils_1/imports/synth_1/tb_mac_core.dcp for incremental synthesis
+Command: read_checkpoint -auto_incremental -incremental C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core/mac_core.srcs/utils_1/imports/synth_1/tb_mac_core.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core/mac_core.srcs/utils_1/imports/synth_1/tb_mac_core.dcp for incremental synthesis
 INFO: [Vivado 12-7989] Please ensure there are no constraint changes
 Command: synth_design -top mac_core -part xck26-sfvc784-2LV-c
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xck26'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xck26'
 INFO: [Device 21-403] Loading part xck26-sfvc784-2LV-c
-INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
-INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 22504
+INFO: [Synth 8-7075] Helper process launched with PID 17348
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1766.332 ; gain = 204.957
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1850.953 ; gain = 203.684
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'mac_core' [D:/Hoc_Tap/Dai_hoc/HK6/SoC/BaiTap/20-04/mac_core/mac_core.srcs/sources_1/imports/mac-tvla-verification/rtl/mac_core.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'mac_core' (0#1) [D:/Hoc_Tap/Dai_hoc/HK6/SoC/BaiTap/20-04/mac_core/mac_core.srcs/sources_1/imports/mac-tvla-verification/rtl/mac_core.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mac_core' [C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core/mac_core.srcs/sources_1/imports/mac-tvla-verification/rtl/mac_core.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'mac_core' (0#1) [C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core/mac_core.srcs/sources_1/imports/mac-tvla-verification/rtl/mac_core.v:1]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 1872.406 ; gain = 311.031
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1957.027 ; gain = 309.758
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 1872.406 ; gain = 311.031
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1957.027 ; gain = 309.758
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 1872.406 ; gain = 311.031
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1957.027 ; gain = 309.758
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1872.406 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1957.027 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [D:/Hoc_Tap/Dai_hoc/HK6/SoC/BaiTap/20-04/mac_core/mac_core.srcs/constrs_1/new/mac_constraints.xdc]
-create_clock: Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1949.605 ; gain = 18.160
-Finished Parsing XDC File [D:/Hoc_Tap/Dai_hoc/HK6/SoC/BaiTap/20-04/mac_core/mac_core.srcs/constrs_1/new/mac_constraints.xdc]
+Parsing XDC File [C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core/mac_core.srcs/constrs_1/new/mac_constraints.xdc]
+Finished Parsing XDC File [C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core/mac_core.srcs/constrs_1/new/mac_constraints.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1949.605 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2030.035 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1949.605 ; gain = 0.000
-INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
-INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 2030.035 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:30 ; elapsed = 00:00:36 . Memory (MB): peak = 1949.605 ; gain = 388.230
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 2030.035 ; gain = 382.766
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
@@ -79,13 +73,23 @@ Start Loading Part and Timing Information
 Loading part: xck26-sfvc784-2LV-c
 INFO: [Synth 8-6742] Reading net delay rules and data
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:30 ; elapsed = 00:00:36 . Memory (MB): peak = 1949.605 ; gain = 388.230
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 2030.035 ; gain = 382.766
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:36 . Memory (MB): peak = 1949.605 ; gain = 388.230
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 2030.035 ; gain = 382.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Preparing Guide Design
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6895] The reference checkpoint C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core/mac_core.srcs/utils_1/imports/synth_1/tb_mac_core.dcp is not suitable for use with incremental synthesis for this design. Please regenerate the checkpoint for this design with -incremental_synth switch in the same Vivado session that synth_design has been run. Synthesis will continue with the default flow
+---------------------------------------------------------------------------------
+Finished Doing Graph Differ : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 2030.035 ; gain = 382.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Preparing Guide Design : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 2030.035 ; gain = 382.766
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'state_curr_r_reg' in module 'mac_core'
 ---------------------------------------------------------------------------------------------------
@@ -97,8 +101,18 @@ INFO: [Synth 8-802] inferred FSM for state register 'state_curr_r_reg' in module
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'state_curr_r_reg' using encoding 'sequential' in module 'mac_core'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:31 ; elapsed = 00:00:37 . Memory (MB): peak = 1949.605 ; gain = 388.230
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 2030.035 ; gain = 382.766
 ---------------------------------------------------------------------------------
+
+
+Incremental Synthesis Report Summary:
+
+1. Incremental synthesis run: no
+
+   Reason for not running incremental synthesis : 
+
+
+INFO: [Synth 8-7130] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -146,7 +160,7 @@ DSP Report: Generating DSP mul_full_w, operation Mode is: (PCIN>>17)+A*B.
 DSP Report: operator mul_full_w is absorbed into DSP mul_full_w.
 DSP Report: operator mul_full_w is absorbed into DSP mul_full_w.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:41 . Memory (MB): peak = 1949.605 ; gain = 388.230
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 2030.035 ; gain = 382.766
 ---------------------------------------------------------------------------------
  Sort Area is  mul_full_w_0 : 0 0 : 3101 5754 : Used 1 time 0
  Sort Area is  mul_full_w_0 : 0 1 : 2653 5754 : Used 1 time 0
@@ -174,19 +188,19 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:49 ; elapsed = 00:00:59 . Memory (MB): peak = 2658.918 ; gain = 1097.543
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 2734.520 ; gain = 1087.250
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:49 ; elapsed = 00:00:59 . Memory (MB): peak = 2658.918 ; gain = 1097.543
+Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 2734.520 ; gain = 1087.250
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:49 ; elapsed = 00:00:59 . Memory (MB): peak = 2658.918 ; gain = 1097.543
+Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 2735.324 ; gain = 1088.055
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -204,37 +218,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:56 ; elapsed = 00:01:06 . Memory (MB): peak = 2891.977 ; gain = 1330.602
+Finished IO Insertion : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 2968.816 ; gain = 1321.547
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:56 ; elapsed = 00:01:06 . Memory (MB): peak = 2891.977 ; gain = 1330.602
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 2968.816 ; gain = 1321.547
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:56 ; elapsed = 00:01:06 . Memory (MB): peak = 2891.977 ; gain = 1330.602
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 2968.816 ; gain = 1321.547
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:56 ; elapsed = 00:01:06 . Memory (MB): peak = 2891.977 ; gain = 1330.602
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 2968.816 ; gain = 1321.547
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:56 ; elapsed = 00:01:06 . Memory (MB): peak = 2891.977 ; gain = 1330.602
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 2968.816 ; gain = 1321.547
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:56 ; elapsed = 00:01:06 . Memory (MB): peak = 2891.977 ; gain = 1330.602
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 2968.816 ; gain = 1321.547
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -280,18 +294,18 @@ Report Cell Usage:
 |17    |OBUF            |    33|
 +------+----------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:56 ; elapsed = 00:01:06 . Memory (MB): peak = 2891.977 ; gain = 1330.602
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 2968.816 ; gain = 1321.547
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:36 ; elapsed = 00:00:55 . Memory (MB): peak = 2891.977 ; gain = 1253.402
-Synthesis Optimization Complete : Time (s): cpu = 00:00:57 ; elapsed = 00:01:07 . Memory (MB): peak = 2891.977 ; gain = 1330.602
+Synthesis finished with 0 errors, 1 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:27 . Memory (MB): peak = 2968.816 ; gain = 1248.539
+Synthesis Optimization Complete : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 2968.816 ; gain = 1321.547
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 2891.977 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2968.816 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 83 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2891.977 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2968.816 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 75 instances were transformed.
   BUFG => BUFGCE: 1 instance 
@@ -300,10 +314,11 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 
 Synth Design complete | Checksum: c0a55ef6
 INFO: [Common 17-83] Releasing license: Synthesis
-25 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+22 Infos, 1 Warnings, 1 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:08 ; elapsed = 00:01:24 . Memory (MB): peak = 2891.977 ; gain = 2369.996
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 2891.977 ; gain = 0.000
-INFO: [Common 17-1381] The checkpoint 'D:/Hoc_Tap/Dai_hoc/HK6/SoC/BaiTap/20-04/mac_core/mac_core.runs/synth_1/mac_core.dcp' has been generated.
+synth_design: Time (s): cpu = 00:00:38 ; elapsed = 00:00:41 . Memory (MB): peak = 2968.816 ; gain = 2359.672
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 2968.816 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core/mac_core.runs/synth_1/mac_core.dcp' has been generated.
 INFO: [Vivado 12-24828] Executing command : report_utilization -file mac_core_utilization_synth.rpt -pb mac_core_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon Apr 27 10:22:17 2026...
+INFO: [Common 17-206] Exiting Vivado at Sun May  3 19:46:49 2026...

@@ -1,9 +1,4 @@
 Time resolution is 1 ps
 ==================================================
-[30000] BAT DAU TEST TVLA - KHOI MAC CORE
-[30000] Dang chay tap du lieu FIXED...
-[10070000] Hoan thanh FIXED. Ket qua Y = 07d00000
-[10120000] Dang chay tap du lieu RANDOM...
-[20160000] Hoan thanh RANDOM. Ket qua Y = 3c7287e0
-==================================================
-$finish called at time : 20260 ns : File "D:/Hoc_Tap/Dai_hoc/HK6/SoC/BaiTap/20-04/mac_core/mac_core.srcs/sources_1/imports/mac-tvla-verification/tb/tb_mac_core.v" Line 128
+[250000] BAT DAU TEST TVLA - PHUONG PHAP INTERLEAVED
+[250000] Dang bom du lieu va ghi Label...

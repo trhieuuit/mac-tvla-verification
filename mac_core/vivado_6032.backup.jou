@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Fri May  1 14:29:29 2026
+# Process ID         : 6032
+# Current directory  : C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent12696 C:\Users\nguye\Desktop\LAB\SoC\BTL\mac-tvla-verification\mac_core\mac_core.xpr
+# Log file           : C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core/vivado.log
+# Journal file       : C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core\vivado.jou
+# Running On         : DESKTOP-0UL7VKJ
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 5 5600H with Radeon Graphics         
+# CPU Frequency      : 3294 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 16474 MB
+# Swap memory        : 9126 MB
+# Total Virtual      : 25601 MB
+# Available Virtual  : 14067 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core/mac_core.xpr
+update_compile_order -fileset sources_1
+open_run impl_1
+report_power -file tvla_power_trace.txt -vcd tvla_mac_core.vcd -step 1ns

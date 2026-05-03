@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "D:/Hoc_Tap/Dai_hoc/HK6/SoC/BaiTap/20-04/mac_core/mac_core.runs/synth_1/mac_core.tcl"
+  variable script "C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core/mac_core.runs/synth_1/mac_core.tcl"
   variable category "vivado_synth"
 }
 
@@ -68,16 +68,17 @@ create_project -in_memory -part xck26-sfvc784-2LV-c
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir D:/Hoc_Tap/Dai_hoc/HK6/SoC/BaiTap/20-04/mac_core/mac_core.cache/wt [current_project]
-set_property parent.project_path D:/Hoc_Tap/Dai_hoc/HK6/SoC/BaiTap/20-04/mac_core/mac_core.xpr [current_project]
+set_property webtalk.parent_dir C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core/mac_core.cache/wt [current_project]
+set_property parent.project_path C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core/mac_core.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
+set_property board_part_repo_paths {D:/Vivado/2025.1/data/boards/board_files} [current_project]
 set_property board_part xilinx.com:kv260_som:part0:1.4 [current_project]
-set_property ip_output_repo d:/Hoc_Tap/Dai_hoc/HK6/SoC/BaiTap/20-04/mac_core/mac_core.cache/ip [current_project]
+set_property ip_output_repo c:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core/mac_core.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_verilog -library xil_defaultlib D:/Hoc_Tap/Dai_hoc/HK6/SoC/BaiTap/20-04/mac_core/mac_core.srcs/sources_1/imports/mac-tvla-verification/rtl/mac_core.v
+read_verilog -library xil_defaultlib C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core/mac_core.srcs/sources_1/imports/mac-tvla-verification/rtl/mac_core.v
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -87,12 +88,12 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc D:/Hoc_Tap/Dai_hoc/HK6/SoC/BaiTap/20-04/mac_core/mac_core.srcs/constrs_1/new/mac_constraints.xdc
-set_property used_in_implementation false [get_files D:/Hoc_Tap/Dai_hoc/HK6/SoC/BaiTap/20-04/mac_core/mac_core.srcs/constrs_1/new/mac_constraints.xdc]
+read_xdc C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core/mac_core.srcs/constrs_1/new/mac_constraints.xdc
+set_property used_in_implementation false [get_files C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core/mac_core.srcs/constrs_1/new/mac_constraints.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
 
-read_checkpoint -auto_incremental -incremental D:/Hoc_Tap/Dai_hoc/HK6/SoC/BaiTap/20-04/mac_core/mac_core.srcs/utils_1/imports/synth_1/tb_mac_core.dcp
+read_checkpoint -auto_incremental -incremental C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core/mac_core.srcs/utils_1/imports/synth_1/tb_mac_core.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }

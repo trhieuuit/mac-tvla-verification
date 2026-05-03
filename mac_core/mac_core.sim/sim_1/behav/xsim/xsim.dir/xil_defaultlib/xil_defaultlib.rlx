@@ -2,6 +2,8 @@
 2020.2
 May 22 2025
 00:13:55
-D:/Hoc_Tap/Dai_hoc/HK6/SoC/BaiTap/20-04/mac_core/mac_core.sim/sim_1/behav/xsim/glbl.v,1741209010,verilog,,,,glbl,,,,,,,,
-D:/Hoc_Tap/Dai_hoc/HK6/SoC/BaiTap/20-04/mac_core/mac_core.srcs/sources_1/imports/mac-tvla-verification/rtl/mac_core.v,1777217419,verilog,,D:/Hoc_Tap/Dai_hoc/HK6/SoC/BaiTap/20-04/mac_core/mac_core.srcs/sources_1/imports/mac-tvla-verification/tb/tb_mac_core.v,,mac_core,,,C:/Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
-D:/Hoc_Tap/Dai_hoc/HK6/SoC/BaiTap/20-04/mac_core/mac_core.srcs/sources_1/imports/mac-tvla-verification/tb/tb_mac_core.v,1777217619,verilog,,,,tb_mac_core,,,C:/Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core/mac_core.sim/sim_1/behav/xsim/glbl.v,1777445484,verilog,,,,glbl,,,,,,,,
+C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core/mac_core.srcs/sim_1/new/tb_pipeline_mac_core.v,1777808523,verilog,,,,tb_pipeline_mac_core,,,D:/Vivado/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core/mac_core.srcs/sources_1/imports/mac-tvla-verification/rtl/mac_core.v,1777445485,verilog,,C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core/mac_core.srcs/sources_1/imports/mac-tvla-verification/tb/tb_mac_core.v,,mac_core,,,D:/Vivado/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core/mac_core.srcs/sources_1/imports/mac-tvla-verification/tb/tb_mac_core.v,1777811586,verilog,,,,tb_mac_core,,,D:/Vivado/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core/mac_core.srcs/sources_1/new/pipeline_mac_core.v,1777805406,verilog,,C:/Users/nguye/Desktop/LAB/SoC/BTL/mac-tvla-verification/mac_core/mac_core.srcs/sim_1/new/tb_pipeline_mac_core.v,,pipeline_mac_core,,,D:/Vivado/2025.1/Vivado/data/rsb/busdef,,,,,
